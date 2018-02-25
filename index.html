@@ -3,90 +3,176 @@
 <head>
 <title>Andrew Doyle</title>
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="css/bootstrap.min.css"></link>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="css/crocodoyle.css"></link>
+<link href="favicon.ico" rel="icon" type="image/x-icon" />
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 </head>
+
 <body> 
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Andrew Doyle</a>
-      </div>
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="#about">About</a></li>
-          <li><a href="#brains">Brains</a></li>
-		  <li><a href="#software">Software</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Andrew Doyle</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#cv">CV</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#brains">Brains</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
   
   <div class="container-fluid">
+  
 	<div class="row">
-	  <div class="col-sm-12" id="about">
-	    <h2>About</h2>
-	  
+	
+	  <div class="col-sm-8 col-md-6 col-lg-4 offset-sm-2 offset-md-3 offset-lg-4" id="about">
+		<h2>About Me</h2>
+		<hr>
 	    <p>
-	    I'm a software developer at the <a href="http://mcin-cnim.ca/">McGill Centre for Integrative Neuroscience (MCIN)</a> working on tools to support neuroscience research.
-	    I have always been interested in how the brain works, and during my DEC in Liberal Arts in 2005, I gave my final seminar on Artificial Intelligence and training Multi-Level Perceptrons in 2005.
-	    I did a Master's degree at McGill University in the <a href="http://www.cim.mcgill.ca/~pvg/">Probabilistic Vision Group</a> (and remade the website), and my thesis focused
-	    on building computer vision models in MRI images for Multiple Sclerosis patients to predict the natural course of the disease. I now spend my free time investigating deep learning
-	    models to solve problems in neuroimaging.
-	    </p>
+	    Hello there, I'm Andrew Doyle. I'm a software developer/researcher working for Dr. Alan C. Evans at the <a href="http://www.mcgill.ca/neuro/neuro-brain-research-patient-care-and-training">Montreal Neurological Institute</a> building tools for neuroscience research with artificial intelligence methods. I used to do web development work on CBRAIN, a platform that facilitates and distributes reproducible research across computational clusters. Now I work more on 
+		</p>
+		
+		<p>
+		For more information about my current work, check out my <a href="#projects">projects</a> section.
+		</p>
 	  
-	    <img src="img/andrew-trees.jpg" class="img-responsive img-rounded"/>
-	    <p>
-	      I captain an ultimate frisbee team year-round, canoe-trip, hike, and play tennis in the summer, and ski and play hockey in the winter. I play the flute, bass, and the piano.
-	    </p>
+		<hr>
+		<div class="text-center">
+	    <img src="img/MEG_prep.jpg" width="250px" class="img-fluid rounded-circle"/>
+		</div>
+		<hr>
+		<div class="text-center">
+			<a href="https://twitter.com/crocodoyle"><i class="fab fa-twitter fa-3x"></i></a>
+			<a href="https://github.com/crocodoyle"><i class="fab fa-github fa-3x"></i></a>
+			<a href="https://www.linkedin.com/in/andrew-doyle-b68a5619/"><i class="fab fa-linkedin fa-3x"></i></a>
+			<a href="https://scholar.google.ca/citations?user=xxecIhQAAAAJ&hl=en&oi=sra"><i class="ai ai-google-scholar-square ai-3x"></i></a>
+			<a href="https://orcid.org/0000-0001-7060-5804"><i class="ai ai-orcid ai-3x"></i></a>
+		</div>
+		<hr>
 	  </div>
+	  
+	  <div class="col-sm-2 col-md-3 col-lg-4"></div>
 	</div>
   
 	<div class="row">
-	  <div class="col-sm-12" id="brains">
-	    <h2>Brains</h2>
 	  
-	    <p>
-	      I like brains, and I 3D-print them in my spare time. My brain can be found below. The surface reconstruction was done using CIVET 2.0, and the visualization is done using the <a href="https://brainbrowser.cbrain.mcgill.ca/">BrainBrowser</a> Surface Viewer.
-	    </p>
-	    <div id="brain-browser"></div>
+	  <div class="col-sm-8 col-md-6 col-lg-4 offset-sm-2 offset-md-3 offset-lg-4" id="projects">
+	    <h2>Projects</h2>
+		
+		<div class="card">
+		  <div class="card-body">
+			<h5 class="card-title">MS Drug Responder Prediction</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Models brain MRI as a Bag-of-Lesions predict future disease activity</h6>
+			<p class="card-text">This work extends my M.Eng thesis and seeks to predict responders to Multiple Sclerosis drugs from clinical trial imaging data.</p>
+			<img src="img/bol.png" class="img-fluid"/>
+			<p class="card-text">Related publications:</p>
+			<ol>
+			<li>Doyle, Andrew, et al. <a href="https://link.springer.com/chapter/10.1007/978-3-319-66179-7_22">"Predicting Future Disease Activity and Treatment Responders for Multiple Sclerosis Patients Using a Bag-of-Lesions Brain Representation."</a> MICCAI, 2017.</li>
+			<li>Doyle, Andrew, et al. <a href="https://link.springer.com/chapter/10.1007/978-3-319-75238-9_2">"Lesion Detection, Segmentation and Prediction in Multiple Sclerosis Clinical Trials."</a> MICCAI BrainLesion Workshop, 2017.</li>
+			</ol>
+			<a href="https://www.dropbox.com/s/jboomcagv8d9gch/Bag%20of%20Lesions.pdf?dl=0" class="card-link">Presentation slides</a>
+		  </div>
+		</div>
+		
+		<hr>
+		
+		<div class="card">
+		  <div class="card-body">
+			<h5 class="card-title">Infant Brain MRI Segmentation</h5>
+			<h6 class="card-subtitle mb-2 text-muted">MICCAI 2017 Grand Challenge on 6-month infant brain MRI Segmentation</h6>
+			<p class="card-text">Obtaining accurate white/gray matter segmentations is difficult because the brain's myelin is still growing. Accurate longitudinal segmentations can be used to characterize brain development.</p>
+			<img src="img/segmentation.gif" class="img-fluid"/>
+			<p class="card-text">Related publications:</p>
+			<ol><li>In press...</li>
+			</ol>
+			<a href="http://iseg2017.web.unc.edu/">Challenge website</a>
+		  </div>
+		</div>		
+		
+		<hr>
 	
-        <p>
-	      And here's a photo of my 3D-printed brain. This is the first one I did at 50% scale. It looks small, but all the neuroscientists tell me it's the connections that count! And the cortical thickness.
-	    </p>
-	    <img src="img/3d-printed-brain.jpg" class="img-responsive img-rounded"/>
-	  </div>
+		<div class="card">
+		  <div class="card-body">
+			<h5 class="card-title">AutoQC of T1w MRI</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Motion detection and other artifact Quality Control for MRI</h6>
+			<p class="card-text">This project uses CNNs to automatically predict whether scans will pass quality control and be useful for follow-up study.</p>
+			<p>There are two sub-projects: one to develop</p>
+			<p class="card-text">Related Posters:</p>
+			<ol>
+			<li>Doyle, Andrew, et al. <a href="https://www.dropbox.com/s/at9pdh3roxc1wxu/IBIS-QC.pdf?dl=0">"Automatic Quality Control of Infant MRI."</a> Poster presentation at Montreal AI Symposium, 2017.</li>
+			<li>Doyle, Andrew, et al. <a href="https://www.dropbox.com/s/ssw840j00tcsbi2/MED-NIPS.pdf?dl=0">"Automatic Quality Control of Human Brain T1w MRI Scans."</a> Poster presentation at Medical Imaging meets NIPS Workshop of NIPS, 2017.</li>
+			</ol>
+			<img src="img/qc.png"/>
+			<a href="#" class="card-link">Presentation slides</a>
+		  </div>
+		</div>
+
+		<img src="img/responders.png"/>
+		</div>
+		  
+		<div class="col-sm-2 col-md-3 col-lg-4"></div>
 	</div>
-    
+
 	<div class="row">
-	  <div class="col-sm-12" id="software">
-	    <h2>Software</h2>
-	    <p>
-	      I have worked extensively using the Model-View-Controller (MVC) design pattern, using Grails at the National Film Board to manage and automate the digitization and archival of film reels.
-		  I dabbled with Django when I learned Python during my Master's, and made a little prototype of a <a href="https://github.com/crocodoyle/growr">medical growth chart app</a>.
-		  For my work at MCIN I use <a href="http://rubyonrails.org/">Ruby on Rails</a>, primarily for a project called <a href="https://portal.cbrain.mcgill.ca/"> CBRAIN</a>, which is all <a href="https://github.com/aces/cbrain">open source</a>.
-	    </p>
+	<div class="col-sm-8 col-md-6 col-lg-4 offset-sm-2 offset-md-3 offset-lg-4">
+		<h2>Brains</h2>
+		<hr>
+			<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/BSpCCLzj0Jr/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BSpCCLzj0Jr/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">This is your brain on neapolitan ice cream #3dprinting #doylerules</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/tom_via_van/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Tom K</a> (@tom_via_van) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-04-08T22:27:59+00:00">Apr 8, 2017 at 3:27pm PDT</time></p></div></blockquote> <script async defer src="//www.instagram.com/embed.js"></script>
+			<hr>
+			<div id="brain-browser"></div>
+			<hr>
+			<img src="img/3d-printed-brain.jpg" class="img-fluid img-rounded"/>
+			<hr>
+			
+	</div>
+	<div class="col-sm-2 col-md-3 col-lg-4"></div>
+	</div>
+
+	<div class="row">
+	  <div class="col-sm-8 col-md-6 col-lg-4 offset-sm-2 offset-md-3 offset-lg-4" id="cv">
+	    <h2>CV</h2>
+
+		
 	  </div>
+	  <div class="col-sm-2 col-md-3 col-lg-4"></div>
 	</div>
 	
 	<div class="row">
-	  <div class="col-sm-12" id="contact">
+	  <div class="col-sm-8 col-md-6 col-lg-4 offset-sm-2 offset-md-3 offset-lg-4" id="contact">
 	    <h2>Contact</h2>
 	    <p>
 	      If you would like to reach me, you can <a href="mailto:doyleNOSPAM.andrew@gmail.com">email</a> me,
-		  reach me on <a href="http://www.twitter.com/crocodoyle">Twitter</a>, or add me on <a href="https://ca.linkedin.com/in/andrew-doyle-b68a5619">LinkedIn</a>.
-		  However, I don't add people I don't know unless you're like a CEO of a medical devices company. 
+		  reach me on <a href="http://www.twitter.com/crocodoyle">Twitter</a>, or add me on <a href="https://ca.linkedin.com/in/andrew-doyle-b68a5619">LinkedIn</a>
 	    </p>
 	  </div>
+	  <div class="col-sm-2 col-md-3 col-lg-4"></div>
+	</div>
+	
+	<div class="row">
+		
 	</div>
 
     <script type="text/javascript">
